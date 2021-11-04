@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"> </a>;
+            <div class="nav-links" Id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR CERTIFICATES & ONLINE PROGRAMS</h1>
+
+    </section>
+    <!-----------------blog page content --------------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/day.jpg">
+                <h2> Our certificates & online programms</h2>
+                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. pellentesque aliqute tuript nulla,<br>alefend faucibus est sollicitudin ut.Mecenas ut veneatis ex,et dapibus purus Donec sit.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. pellentesque aliqute tuript nulla,<br>alefend faucibus est sollicitudin ut.Mecenas ut veneatis ex,et dapibus purus Donec sit.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. pellentesque aliqute tuript nulla,<br>alefend faucibus est sollicitudin ut.Mecenas ut veneatis ex,et dapibus purus Donec sit.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. pellentesque aliqute tuript nulla,<br>alefend faucibus est sollicitudin ut.Mecenas ut veneatis ex,et dapibus purus Donec sit.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter name">
+                        <input type="email" placeholder="Enetr email">
+                        <textarea row="5" placeholder="your comment">
+                        </textarea>
+                        <button type="submit" class="red-bts">Post comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Web Development</span>
+                    <span>21</span></div>
+                <div>
+                    <span>Business Analyticall</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>10</span></div>
+                <div>
+                    <span>Machine learning</span>
+                    <span>5</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-------------------Footer---------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br> pellentesque aliqute tuript nulla,alefend faucibus est sollicitudin ut.Mecenas ut veneatis ex,et dapibus purus Donec sit.</p>
+        <div class "icons">
+            <i class="fa-facebook"></i>
+            <i class="fa-twitter"></i>
+            <i class="fa-instagram"></i>
+            <i class="fa-linkedin"></i>
+
+        </div>
+        <p> *****made by chikyala sahithi*****</p>
+    </section>
+    <!-----------------javascript for Toggle Menu----------------->
+    <script>
+        var navLinks = document.getElementById(" navLinks ");
+
+        function showMenu() {
+            navLinks.style.right = "0 ";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px ";
+        }
+    </script>
+</body>
+
+</html>

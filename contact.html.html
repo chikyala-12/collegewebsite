@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"> </a>;
+            <div class="nav-links" Id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <!------------------- contanct us ------------------>
+    <section class="location">
+        <iframe src=" https://www.google.com/maps/embed?<br>pb=!1m18!1m12!1m3!1d487295.0253798183!2d78.12783535812261!3d17.412153053422976!<br>2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1635958826031!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+    <section class="contant-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span> 
+                     <h5>NIZAMABAD Road, manikbandar</h5>
+                     <p>Nizamabad,Telangana , India</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span> 
+                         <h5>+19 9878675645</h5>
+                         <p>Monday to saturday, 10AM to 6PM</p>
+                        </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span> 
+                         <h5>kakatiya@women.com</h5>
+                         <p>Email us for any query</p>
+                       </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="Email" name="email" placeholder="Enter your email" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="message"></textarea>
+                    <button type="submit" class="red-bts">send message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-------------------Footer---------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br> pellentesque aliqute tuript nulla,alefend faucibus est sollicitudin ut.Mecenas ut veneatis ex,et dapibus purus Donec sit.</p>
+        <div class "icons">
+            <i class="fa-facebook"></i>
+            <i class="fa-twitter"></i>
+            <i class="fa-instagram"></i>
+            <i class="fa-linkedin"></i>
+
+        </div>
+        <p> *****made by chikyala sahithi*****</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-----------------javascript for Toggle Menu----------------->
+    <script>
+        var navLinks = document.getElementById(" navLinks ");
+
+        function showMenu() {
+            navLinks.style.right = "0 ";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px ";
+        }
+    </script>
+</body>
+
+</html>
